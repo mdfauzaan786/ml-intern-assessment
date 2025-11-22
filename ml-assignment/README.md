@@ -21,9 +21,9 @@ pip install -r requirements.txt
 python src/generate.py
 
 # This will:
-## -> Load data/example_corpus.txt
-## -> Train the trigram model
-## -> Generate text based on learned probabilities
+-> Load data/example_corpus.txt
+-> Train the trigram model
+-> Generate text based on learned probabilities
 
 # Running Tests
 ## Unit tests are located in:
@@ -38,11 +38,11 @@ pytest -q tests/test_ngram.py
 # About the Model
 ## This implementation includes:
 
-## -> Text preprocessing
-## -> Tokenization
-## -> Start/end padding
-## -> Trigram counting
-## -> Probability calculation
-## -> Weighted random sampling (random.choices)
-## -> Clean stopping logic
-## -> Edge-case handling (empty text)
+-> Text preprocessing
+-> Tokenization
+-> Start/end padding
+-> Trigram counting
+-> Probability calculation
+-> Weighted random sampling (random.choices)
+-> Clean stopping logic
+-> Edge-case handling (empty text)
