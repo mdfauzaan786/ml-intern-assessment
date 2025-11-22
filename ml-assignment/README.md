@@ -1,22 +1,6 @@
 This project implements a Trigram Language Model as part of the AI/ML Intern assignment.
 The objective is to build a clean, modular, and testable system using core Python skills.
 
-# Project Structure
-ml-assignment/
-│
-├── data/
-│   └── example_corpus.txt
-│
-├── src/
-│   ├── ngram_model.py        # Your main implementation
-│   ├── generate.py           # Script to train + generate text
-│   └── utils.py              # (Optional) helper functions
-│
-├── tests/
-│   └── test_ngram.py         # Unit tests
-│
-├── README.md                 # Instructions (this file)
-└── evaluation.md             # Design decisions summary
 
 # Installation
 
